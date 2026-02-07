@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tomato lowpoly
+* source:	https://sketchfab.com/3d-models/tomato-lowpoly-d9f647655e704c35a277ae052dda1b4f
+* author:	SusanKing (https://sketchfab.com/krolzuzannapl)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tomato lowpoly" (https://sketchfab.com/3d-models/tomato-lowpoly-d9f647655e704c35a277ae052dda1b4f) by SusanKing (https://sketchfab.com/krolzuzannapl) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
