@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cbnm8cwdq2t81"]
+
+[ext_resource type="PackedScene" uid="uid://b8ofs0wjjdr8f" path="res://assets/mannequin/scene.gltf" id="1_a202f"]
+
+[node name="Node3D" type="Node3D" unique_id=225540135]
+
+[node name="Sketchfab_Scene" parent="." unique_id=303488531 instance=ExtResource("1_a202f")]
