@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dyokyksgrr04n"]
+
+[ext_resource type="Texture2D" uid="uid://d3o6ecq8vb1ql" path="res://assets/tomato_splash.png" id="1_b04ml"]
+
+[node name="Decal" type="Decal" unique_id=751192086]
+texture_albedo = ExtResource("1_b04ml")
+modulate = Color(0.74509805, 0.23921569, 0.14901961, 1)
+distance_fade_enabled = true

@@ -1,7 +1,25 @@
 [gd_scene format=3 uid="uid://cbnm8cwdq2t81"]
 
-[ext_resource type="PackedScene" uid="uid://b8ofs0wjjdr8f" path="res://assets/mannequin/scene.gltf" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://bp6aya8xrreh4" path="res://timer_ui.tscn" id="1_noarx"]
+[ext_resource type="Script" uid="uid://jehfa6htidey" path="res://tomato.gd" id="2_a0tk4"]
+[ext_resource type="PackedScene" uid="uid://cwbc6iqars7u6" path="res://assets/tomato/scene.gltf" id="3_r3fl7"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_jka67"]
 
 [node name="Node3D" type="Node3D" unique_id=225540135]
 
-[node name="Sketchfab_Scene" parent="." unique_id=303488531 instance=ExtResource("1_a202f")]
+[node name="SubViewport" type="SubViewport" parent="." unique_id=1053758374]
+size = Vector2i(512, 128)
+render_target_update_mode = 4
+
+[node name="TimerUI" parent="SubViewport" unique_id=1758241853 instance=ExtResource("1_noarx")]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1984548722]
+contact_monitor = true
+max_contacts_reported = 1
+script = ExtResource("2_a0tk4")
+
+[node name="tomato" parent="RigidBody3D" unique_id=1523770627 instance=ExtResource("3_r3fl7")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=838186507]
+shape = SubResource("SphereShape3D_jka67")
