@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bp6aya8xrreh4" path="res://timer_ui.tscn" id="1_noarx"]
 [ext_resource type="Script" uid="uid://jehfa6htidey" path="res://tomato.gd" id="2_a0tk4"]
+[ext_resource type="PackedScene" uid="uid://dyokyksgrr04n" path="res://splash.tscn" id="3_jka67"]
 [ext_resource type="PackedScene" uid="uid://cwbc6iqars7u6" path="res://assets/tomato/scene.gltf" id="3_r3fl7"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_jka67"]
@@ -18,6 +19,7 @@ render_target_update_mode = 4
 contact_monitor = true
 max_contacts_reported = 1
 script = ExtResource("2_a0tk4")
+splash_scene = ExtResource("3_jka67")
 
 [node name="tomato" parent="RigidBody3D" unique_id=1523770627 instance=ExtResource("3_r3fl7")]
 
